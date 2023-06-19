@@ -20,5 +20,5 @@
   },
   "public_header_files": "ARTToolKit/**/*.h",
   "source_files": "ARTToolKit/**/*.{h,m,mm,c,cpp}",
-  "prefix_header_file": "ARTToolKit/ARTToolKit-Prefix.pch"
+  "prefix_header_file": "ARTToolKit/ARTToolKit-prefix.pch"
 }
