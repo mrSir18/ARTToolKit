@@ -1,0 +1,6 @@
+framework module ARTToolKit {
+  umbrella header "ARTToolKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

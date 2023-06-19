@@ -28,9 +28,11 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/mrSir18/ARTToolKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
-  s.source_files = 'ARTToolKit/Classes/**/*'
+  s.public_header_files = 'ARTToolKit/**/*.h'
+  s.source_files = 'ARTToolKit/**/*.{h,m,mm,c,cpp}'
+  s.prefix_header_file = 'ARTToolKit/ARTToolKit-Prefix.pch'
   
   # s.resource_bundles = {
   #   'ARTToolKit' => ['ARTToolKit/Assets/*.png']

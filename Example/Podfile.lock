@@ -1,0 +1,16 @@
+PODS:
+  - ARTToolKit (0.1.0)
+
+DEPENDENCIES:
+  - ARTToolKit (from `../`)
+
+EXTERNAL SOURCES:
+  ARTToolKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ARTToolKit: 350c57660d3b64ddf98b7243b587f4017187b9b5
+
+PODFILE CHECKSUM: 48a3495d0f7a9b674a49d9f7ae49eb6cbede70fc
+
+COCOAPODS: 1.12.0

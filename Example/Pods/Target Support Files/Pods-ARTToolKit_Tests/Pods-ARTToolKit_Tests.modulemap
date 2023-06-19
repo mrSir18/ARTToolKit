@@ -1,0 +1,6 @@
+framework module Pods_ARTToolKit_Tests {
+  umbrella header "Pods-ARTToolKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

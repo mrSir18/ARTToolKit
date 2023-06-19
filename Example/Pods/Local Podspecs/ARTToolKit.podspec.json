@@ -1,0 +1,22 @@
+{
+  "name": "ARTToolKit",
+  "version": "0.1.0",
+  "summary": "A short description of ARTToolKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mrSir18/ARTToolKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mrSir18": "mrSir18@163.com"
+  },
+  "source": {
+    "git": "https://github.com/mrSir18/ARTToolKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ARTToolKit/Classes/**/*"
+}
