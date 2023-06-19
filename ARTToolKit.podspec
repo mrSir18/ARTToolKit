@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.public_header_files = 'ARTToolKit/**/*.h'
   s.source_files = 'ARTToolKit/**/*.{h,m,mm,c,cpp}'
-  s.prefix_header_file = 'ARTToolKit/ARTToolKit-Prefix.pch'
+  s.prefix_header_file = 'ARTToolKit/ARTToolKit-prefix.pch'
   
   # s.resource_bundles = {
   #   'ARTToolKit' => ['ARTToolKit/Assets/*.png']

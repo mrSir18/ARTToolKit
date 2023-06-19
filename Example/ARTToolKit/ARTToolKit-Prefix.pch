@@ -1,8 +1,7 @@
 //
-//  ARTToolKit-Prefix.pch
-//  Pods
+//  Prefix header
 //
-//  Created by mrSir18 on 2023/6/19.
+//  The contents of this file are implicitly included at the beginning of every source file.
 //
 
 #import <Availability.h>
@@ -14,5 +13,4 @@
 #ifdef __OBJC__
     @import UIKit;
     @import Foundation;
-//    #import "WXToolKitMacro.h"
 #endif

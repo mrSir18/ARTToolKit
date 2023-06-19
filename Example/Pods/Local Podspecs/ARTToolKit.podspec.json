@@ -16,7 +16,9 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
-  "source_files": "ARTToolKit/Classes/**/*"
+  "public_header_files": "ARTToolKit/**/*.h",
+  "source_files": "ARTToolKit/**/*.{h,m,mm,c,cpp}",
+  "prefix_header_file": "ARTToolKit/ARTToolKit-Prefix.pch"
 }

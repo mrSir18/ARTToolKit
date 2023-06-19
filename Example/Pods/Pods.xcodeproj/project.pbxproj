@@ -49,7 +49,6 @@
 		02C722892A4052B800AD4530 /* NSArray+ARTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+ARTExtension.h"; sourceTree = "<group>"; };
 		02C7228A2A4052B800AD4530 /* NSArray+ARTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ARTExtension.m"; sourceTree = "<group>"; };
 		02C7228E2A4054CF00AD4530 /* ARTAppliance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARTAppliance.h; sourceTree = "<group>"; };
-		02C7228F2A4066BD00AD4530 /* ARTToolKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARTToolKit-Prefix.pch"; sourceTree = "<group>"; };
 		0904D39C162D041840B67FF4847E433A /* Pods-ARTToolKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARTToolKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		0BAAFBE04757262706B456B0F41217F3 /* Pods-ARTToolKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ARTToolKit_Tests.modulemap"; sourceTree = "<group>"; };
 		1130A5232D01CC63091FA1697BA12FC7 /* Pods-ARTToolKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARTToolKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -189,7 +188,6 @@
 				C2706BE820255D2437434D9FD51E5303 /* ARTToolKit.podspec */,
 				1EC74A05CC04B2A11886E86A71053B2E /* LICENSE */,
 				6CB409AE317E7EEA70BB740F3B5DF91A /* README.md */,
-				02C7228F2A4066BD00AD4530 /* ARTToolKit-Prefix.pch */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
