@@ -48,7 +48,6 @@
 		6003F595195388D20070C39A /* ARTToolKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARTToolKit-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* ARTToolKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARTToolKit-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* ARTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARTAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* ARTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARTAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* ARTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARTViewController.h; sourceTree = "<group>"; };
@@ -162,7 +161,6 @@
 				6003F595195388D20070C39A /* ARTToolKit-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* ARTToolKit-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
