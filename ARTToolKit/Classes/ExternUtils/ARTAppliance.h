@@ -17,7 +17,7 @@
 
 
 /*Utils*/
-#import "WXEmptyUtils.h"
+#import "ARTEmptyUtils.h"
 
 
 #endif /* ARTAppliance_h */
