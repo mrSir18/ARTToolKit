@@ -25,7 +25,7 @@
 #ifdef __OBJC__
     @import UIKit;
     @import Foundation;
-#import "ARTAppliance.h"
 #import "ARTToolKitMacro.h"
+#import "ARTAppliance.h"
 
 #endif
