@@ -7,43 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0476EAF32AA6F0EDEC1229C915330FC3 /* UIFont+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 65455FAB3B2F08168843AE2BB6AEA8E7 /* UIFont+ARTExtension.m */; };
-		0EBD722CEAA54D4328108939741519AD /* UIColor+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 761599CA8950C00A31E5ABE6A5C8E6F3 /* UIColor+ARTExtension.m */; };
-		13B3359CA324916E4DE53E103D09B6FB /* CALayer+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DB1E3F7C1E9F660017285E8DD6D7A2 /* CALayer+ARTExtension.m */; };
-		16804360AC9ACDA2C3B1D9E1753B8252 /* ARTEmptyUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B60C276E0FBF1E951E0262656E38EC /* ARTEmptyUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2040300083D78AD48AFC3A94EEB3FC19 /* NSArray+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F46A99530A2FDAB3575D59EC70B4027 /* NSArray+ARTExtension.m */; };
-		275C1A83E438A7175CB0217A3C5A13B7 /* UIView+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3635F4B4231197E751D3CC4467CD28 /* UIView+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04DB14F114C32B2840AFD8BED81D241E /* UIFont+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8EBFAB7AD3D98C0282BFF9B20A130E /* UIFont+ARTExtension.m */; };
+		0654C701B198BDDFC502B8C186CDA1B7 /* CALayer+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B44C428F8E16C6423291E0FD5F06A /* CALayer+ARTExtension.m */; };
+		088E85110107AE11D519E62705470311 /* UIImage+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFBC6B0DDE0AFF0914605ADC08C69E /* UIImage+ARTExtension.m */; };
+		148FF04B795E8AB4092257683DBC0BBA /* NSMutableArray+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 712FFDB5D4BA99F8CB01AAE41E006280 /* NSMutableArray+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1876FE37B59F1EE304AFF2FE6F04B92A /* NSURL+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB75A692D698D5C0B3A685C34C1E56A /* NSURL+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BEDDA2AE19A7DA2F2D4789327D697A7 /* CALayer+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 3916D12B302D2E49581C25A7A70AEE77 /* CALayer+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F7DF69AD7912D6A1956DFF4DA5F783 /* NSString+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C12CA3B835975A9FFEDAC9F2917BD2 /* NSString+ARTExtension.m */; };
+		248314D6FAAA58C6FBC391ED41272B85 /* NSMutableDictionary+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9BA5B19F58A4E87A18A0FA99F2C68F /* NSMutableDictionary+ARTExtension.m */; };
+		290C6F2312B075A0A09A48BA2D10ADD3 /* ARTEmptyUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4485110C44F315B82A15706445CB35F0 /* ARTEmptyUtils.m */; };
+		31929D124801BA3CA3C9E0975F01DFC2 /* ARTToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C51335991C7D40E4774E9F7103C327FA /* ARTToolKit-dummy.m */; };
+		355EA13732F8C70374D19547E589D3C8 /* NSFileManager+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 17F1650F5ED9EE94A21F885D3D0C40D6 /* NSFileManager+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		373CCDDE3C52D7F560E64258D81E98CA /* Pods-ARTToolKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7549B1DB9F7E09775437B174D34FA184 /* Pods-ARTToolKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49E5A0304AD4048EFF0D17F15A24B97F /* UIImage+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9067227A3BDBB1E5DED3D2DCDBD8DB /* UIImage+ARTExtension.m */; };
-		66CC2BA1B0F9CB9961F20FC9F59E65AF /* ARTToolKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C51335991C7D40E4774E9F7103C327FA /* ARTToolKit-dummy.m */; };
-		6CDA9EEF2995B88D6BBE72CE66BC191A /* ARTAppliance.h in Headers */ = {isa = PBXBuildFile; fileRef = 9320F27002334856DA4B43A2F71AD0A6 /* ARTAppliance.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C1FB88B49BA934B32C67CD33CF31FD7 /* UIColor+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = D7262F374D1E96C5EF09C83BF79D9DF8 /* UIColor+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E23696DE4D9753C339349B10A06FCD6 /* ARTToolKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB493F76B94E04D564FB63C1D1AE9706 /* ARTToolKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AECC7C54E564F0885BA4F9F85D0F144 /* NSNumber+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CB16E041F6C60C28CD0D82CEF6C8203 /* NSNumber+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AF714CC4612739CAE8AB99CBEC4CA0B /* UIColor+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 540AB7D6EB25C4D08D5FC8DFAE2122E6 /* UIColor+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		452EA9417010B622FDFFE617BFA99A31 /* NSData+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D9954CCFA450726B7C046D17E9EACF7B /* NSData+ARTExtension.m */; };
+		49E405BAB67E3545E90FD9E5C4A53053 /* NSNumber+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 638AA161E0031BB45881C4AAA92272E0 /* NSNumber+ARTExtension.m */; };
+		4EC8D15B86720772DE3145DD688487DE /* UIView+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9162FF1CE759413AE537D5F0384FA74C /* UIView+ARTExtension.m */; };
+		5B0E8D0E38A668F99C1EE706E9C74B4D /* NSDictionary+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B81735ECB6B4D29BAE62F1626B96E2AA /* NSDictionary+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B6D06F3BC296C41204ADD197B1943DA /* UIView+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 74385325413641014F6D3062FBF5A043 /* UIView+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ACDAF025326CE7DAFA72299A1EADB29 /* UIFont+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F29B202A4EAA75D08E7A2CEB82647E1 /* UIFont+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F8C3E61D92C96EB3AB3A9C08F5A1ACA /* NSObject+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 20EB9A55D762604D11DC6EF3BD0EE653 /* NSObject+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		823A018CBD39B138BD6C25F95D42B606 /* NSDictionary+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BD42C0C653E53FDA855AC150F04E9BD1 /* NSDictionary+ARTExtension.m */; };
+		83BBB1DC03A496F4593A3C8601568356 /* NSString+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = EDE454B325711BA808718B497D661A44 /* NSString+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9947DD007EF25D2680CE09D14AF24CCF /* NSDate+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F0357A73752369800DA20CAA0322EA /* NSDate+ARTExtension.m */; };
 		996A2641B0DDD02B8985607048216E16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		ADDE2FDF12CC2A79AA921C85714AED6C /* UIDevice+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC2135093FACA8784D12C73DC6C8D71 /* UIDevice+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AA375A95D5EEEDDCB316F497B1E951A /* NSArray+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 928BA7B388049DB1D4249264FA1EA7C0 /* NSArray+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E3C853BE79E8C3453029BA54B69B4B0 /* NSMutableArray+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 746D76165F4B8DBC9EA1629D5D5661A2 /* NSMutableArray+ARTExtension.m */; };
+		A3BBEDA5217E317F8FB5366D0A7D5104 /* ARTToolKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB493F76B94E04D564FB63C1D1AE9706 /* ARTToolKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5E7125B65A4746984ECD557BB14F70E /* NSData+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = BD06E0D9476DE234FE0C09F8EFC36590 /* NSData+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABAAF3B975722A32D88EED71DB52E70E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ADFC0168BD5DF2DFA7CA9633AE6A84BE /* NSFileManager+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5FEA6E9F02E500C2C2701E28BE5F88 /* NSFileManager+ARTExtension.m */; };
 		B7536B63BFA62E28D8CA6C9D0DC11732 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CF476980361CE0DB902799A7C00D9770 /* UIImage+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 28700CEE96DE3BE39B66C2222FE41A17 /* UIImage+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D1BFBD7D1ACFEE7EDE623CF5903F4FBC /* UIDevice+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 910BFE7081CA25BA3AEA6C622DCDAFE2 /* UIDevice+ARTExtension.m */; };
-		D7FD5F73687B8E13FEB7C1C264718775 /* UIView+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8599D56283E477A7CFDE4719AA81468C /* UIView+ARTExtension.m */; };
-		D887FDF21D05961E738A0F4943121B1B /* NSArray+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BFF42B893DF1FB5D08238052C206581 /* NSArray+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFC25C75FF830D24187BDFB9541E201E /* NSMutableDictionary+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F6821B6FC50B62B333DFD42F02CE17E /* NSMutableDictionary+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA9C37FF8B203716975ED1E8BAC9183A /* ARTAppliance.h in Headers */ = {isa = PBXBuildFile; fileRef = 9320F27002334856DA4B43A2F71AD0A6 /* ARTAppliance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D142C58464CD8C5F98E7D2E94829C087 /* UIDevice+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = F779AB7E610D4C7A2E129CF0567223B4 /* UIDevice+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D38854ED681EA8B205D4F1FAD4D94025 /* NSArray+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A1755DAA5E153C2D3289D2BBB1FA83 /* NSArray+ARTExtension.m */; };
+		D48B4FB1440784778091D8CE0BE18751 /* UIImage+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 11285552559E57437F82F71D11BC35B3 /* UIImage+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1F5AD35DD0F5E1FD87F4324936F6B2D /* Pods-ARTToolKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F237844DA75AE188F152A1174481D88A /* Pods-ARTToolKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E251BEB1A79DE35328A3FE77F5FA011D /* NSDate+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = FB24B015333AC3B1A921C4C06E8C800A /* NSDate+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E37DB0DAD6D32CB24793763C6A1562AA /* NSURL+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D2881FFA1B86237001A4080FFEAA7E60 /* NSURL+ARTExtension.m */; };
 		E414F3EF2BE08C9EED91B64142608689 /* Pods-ARTToolKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0904D39C162D041840B67FF4847E433A /* Pods-ARTToolKit_Tests-dummy.m */; };
-		EE92A334AF76E87438B8F6726846F8BB /* UIFont+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = BF18EB339FA99925E717A67D0ADCF7F3 /* UIFont+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F02BD5B83D6DDB818789D1B3802EA3BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E7C6B049E216C314448180FE2A709F76 /* NSObject+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A366812A6615AA2C213FBD415B161523 /* NSObject+ARTExtension.m */; };
+		EBB445BEE2CB6E9B2BDE8444BCC4808E /* UIDevice+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F737C44E2F1C0F88D9D5DB48F164F51 /* UIDevice+ARTExtension.m */; };
 		F16352544E6A9B03EB0C58913D5DC5FC /* Pods-ARTToolKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BC44E7F29418F70657E706FFF4D6A3 /* Pods-ARTToolKit_Example-dummy.m */; };
-		F3C8A4603597E33054663CD684E19383 /* ARTEmptyUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4485110C44F315B82A15706445CB35F0 /* ARTEmptyUtils.m */; };
-		FE7D2471CAC10B4C3AC8C0F91D99F428 /* CALayer+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0427474A1DFB3B101B1707E48673B5 /* CALayer+ARTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F17ADB049E69946DC74E559EAE6AF10B /* ARTEmptyUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B60C276E0FBF1E951E0262656E38EC /* ARTEmptyUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAAC3104A01B804FF6168C82404E882B /* UIColor+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A1586AEC37C76CF472B54252AAE409 /* UIColor+ARTExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9FFA68CFDB4FF43C31E905DF62CCA78F /* PBXContainerItemProxy */ = {
+		47DA879BBC9DC6EBB43FF40B0416EE51 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 755551CA8B92A7C3E8D088C158E0E8F3;
 			remoteInfo = ARTToolKit;
 		};
-		D799C47EB383D665CD9C4567C3E7DD74 /* PBXContainerItemProxy */ = {
+		A044A5D136C78FCCC22347FC22940E52 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -55,57 +75,85 @@
 /* Begin PBXFileReference section */
 		0904D39C162D041840B67FF4847E433A /* Pods-ARTToolKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARTToolKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		0BAAFBE04757262706B456B0F41217F3 /* Pods-ARTToolKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ARTToolKit_Tests.modulemap"; sourceTree = "<group>"; };
-		0BFF42B893DF1FB5D08238052C206581 /* NSArray+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+ARTExtension.h"; sourceTree = "<group>"; };
+		11285552559E57437F82F71D11BC35B3 /* UIImage+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ARTExtension.h"; sourceTree = "<group>"; };
 		1130A5232D01CC63091FA1697BA12FC7 /* Pods-ARTToolKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARTToolKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		28700CEE96DE3BE39B66C2222FE41A17 /* UIImage+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ARTExtension.h"; sourceTree = "<group>"; };
+		17F1650F5ED9EE94A21F885D3D0C40D6 /* NSFileManager+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+ARTExtension.h"; sourceTree = "<group>"; };
+		20EB9A55D762604D11DC6EF3BD0EE653 /* NSObject+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+ARTExtension.h"; sourceTree = "<group>"; };
+		27F0357A73752369800DA20CAA0322EA /* NSDate+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ARTExtension.m"; sourceTree = "<group>"; };
 		2C1BAC2F22784D35FBCBCD4010F9C3E8 /* ARTToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ARTToolKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2C599F7EA87F7C1B7E03CD2BA3995D0C /* Pods-ARTToolKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARTToolKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2CB16E041F6C60C28CD0D82CEF6C8203 /* NSNumber+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNumber+ARTExtension.h"; sourceTree = "<group>"; };
+		2F29B202A4EAA75D08E7A2CEB82647E1 /* UIFont+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+ARTExtension.h"; sourceTree = "<group>"; };
+		3916D12B302D2E49581C25A7A70AEE77 /* CALayer+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CALayer+ARTExtension.h"; sourceTree = "<group>"; };
 		40B60C276E0FBF1E951E0262656E38EC /* ARTEmptyUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARTEmptyUtils.h; sourceTree = "<group>"; };
 		4485110C44F315B82A15706445CB35F0 /* ARTEmptyUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ARTEmptyUtils.m; sourceTree = "<group>"; };
+		4D9BA5B19F58A4E87A18A0FA99F2C68F /* NSMutableDictionary+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ARTExtension.m"; sourceTree = "<group>"; };
+		4F6821B6FC50B62B333DFD42F02CE17E /* NSMutableDictionary+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+ARTExtension.h"; sourceTree = "<group>"; };
 		4FE8209F4B063B9AC368DE743EFE3C59 /* Pods-ARTToolKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARTToolKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		51445215D37503A9871BA3050D535FD2 /* Pods-ARTToolKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ARTToolKit_Example.modulemap"; sourceTree = "<group>"; };
+		51C12CA3B835975A9FFEDAC9F2917BD2 /* NSString+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+ARTExtension.m"; sourceTree = "<group>"; };
+		540AB7D6EB25C4D08D5FC8DFAE2122E6 /* UIColor+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+ARTExtension.h"; sourceTree = "<group>"; };
 		55F4CBB081D101CD0EBEF97D94AAD701 /* ARTToolKit-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ARTToolKit-Prefix.pch"; path = "ARTToolKit/ARTToolKit-Prefix.pch"; sourceTree = "<group>"; };
 		5A52594BCA13539FE7C7683F79CAB35D /* Pods-ARTToolKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARTToolKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		65455FAB3B2F08168843AE2BB6AEA8E7 /* UIFont+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+ARTExtension.m"; sourceTree = "<group>"; };
+		5F737C44E2F1C0F88D9D5DB48F164F51 /* UIDevice+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+ARTExtension.m"; sourceTree = "<group>"; };
+		638AA161E0031BB45881C4AAA92272E0 /* NSNumber+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+ARTExtension.m"; sourceTree = "<group>"; };
 		69BC44E7F29418F70657E706FFF4D6A3 /* Pods-ARTToolKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARTToolKit_Example-dummy.m"; sourceTree = "<group>"; };
+		712FFDB5D4BA99F8CB01AAE41E006280 /* NSMutableArray+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+ARTExtension.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74385325413641014F6D3062FBF5A043 /* UIView+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+ARTExtension.h"; sourceTree = "<group>"; };
+		746D76165F4B8DBC9EA1629D5D5661A2 /* NSMutableArray+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+ARTExtension.m"; sourceTree = "<group>"; };
 		7549B1DB9F7E09775437B174D34FA184 /* Pods-ARTToolKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARTToolKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		761599CA8950C00A31E5ABE6A5C8E6F3 /* UIColor+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ARTExtension.m"; sourceTree = "<group>"; };
 		76DFCD286FE72DF42BF3F9356B7EE88D /* ARTToolKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ARTToolKit; path = ARTToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CACC71233E9F68DE0AC1B4E5FD33D5F /* Pods-ARTToolKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ARTToolKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7F46A99530A2FDAB3575D59EC70B4027 /* NSArray+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ARTExtension.m"; sourceTree = "<group>"; };
-		8599D56283E477A7CFDE4719AA81468C /* UIView+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ARTExtension.m"; sourceTree = "<group>"; };
+		86A1586AEC37C76CF472B54252AAE409 /* UIColor+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ARTExtension.m"; sourceTree = "<group>"; };
 		8BF9F88E0329E473FFEFE41839B84CBB /* ARTToolKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ARTToolKit-Info.plist"; sourceTree = "<group>"; };
-		910BFE7081CA25BA3AEA6C622DCDAFE2 /* UIDevice+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+ARTExtension.m"; sourceTree = "<group>"; };
+		8D5FEA6E9F02E500C2C2701E28BE5F88 /* NSFileManager+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+ARTExtension.m"; sourceTree = "<group>"; };
+		9162FF1CE759413AE537D5F0384FA74C /* UIView+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ARTExtension.m"; sourceTree = "<group>"; };
+		928BA7B388049DB1D4249264FA1EA7C0 /* NSArray+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+ARTExtension.h"; sourceTree = "<group>"; };
 		9320F27002334856DA4B43A2F71AD0A6 /* ARTAppliance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARTAppliance.h; sourceTree = "<group>"; };
 		9427177D18E92466C09B81D5E8CA228E /* ARTToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARTToolKit-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A366812A6615AA2C213FBD415B161523 /* NSObject+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ARTExtension.m"; sourceTree = "<group>"; };
 		AA8AC9216DBE746B2A28931B0D553E45 /* Pods-ARTToolKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ARTToolKit_Example"; path = Pods_ARTToolKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCFBC6B0DDE0AFF0914605ADC08C69E /* UIImage+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ARTExtension.m"; sourceTree = "<group>"; };
 		AFE2CBEB8FD7551023E0AA0D722B17E0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B159DC28652BC72A551D9CA46E8B7429 /* Pods-ARTToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARTToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B1A1755DAA5E153C2D3289D2BBB1FA83 /* NSArray+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ARTExtension.m"; sourceTree = "<group>"; };
 		B7847CA3F930EA21BDB440513DCA89E3 /* Pods-ARTToolKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARTToolKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		B81735ECB6B4D29BAE62F1626B96E2AA /* NSDictionary+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ARTExtension.h"; sourceTree = "<group>"; };
 		BACFA0E1C03181B30BD25CCA1EFC9BBD /* ARTToolKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ARTToolKit.modulemap; sourceTree = "<group>"; };
-		BF18EB339FA99925E717A67D0ADCF7F3 /* UIFont+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+ARTExtension.h"; sourceTree = "<group>"; };
+		BD06E0D9476DE234FE0C09F8EFC36590 /* NSData+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+ARTExtension.h"; sourceTree = "<group>"; };
+		BD42C0C653E53FDA855AC150F04E9BD1 /* NSDictionary+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ARTExtension.m"; sourceTree = "<group>"; };
 		C0D84D1E55DE14832DABFAE72B3D6C2B /* Pods-ARTToolKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARTToolKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C51335991C7D40E4774E9F7103C327FA /* ARTToolKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ARTToolKit-dummy.m"; sourceTree = "<group>"; };
-		CA3635F4B4231197E751D3CC4467CD28 /* UIView+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+ARTExtension.h"; sourceTree = "<group>"; };
-		CC0427474A1DFB3B101B1707E48673B5 /* CALayer+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CALayer+ARTExtension.h"; sourceTree = "<group>"; };
-		CF9067227A3BDBB1E5DED3D2DCDBD8DB /* UIImage+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ARTExtension.m"; sourceTree = "<group>"; };
-		D1DB1E3F7C1E9F660017285E8DD6D7A2 /* CALayer+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CALayer+ARTExtension.m"; sourceTree = "<group>"; };
+		D27B44C428F8E16C6423291E0FD5F06A /* CALayer+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CALayer+ARTExtension.m"; sourceTree = "<group>"; };
+		D2881FFA1B86237001A4080FFEAA7E60 /* NSURL+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURL+ARTExtension.m"; sourceTree = "<group>"; };
 		D52EAA0B71ACA7A223022585571A6182 /* Pods-ARTToolKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ARTToolKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D7262F374D1E96C5EF09C83BF79D9DF8 /* UIColor+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+ARTExtension.h"; sourceTree = "<group>"; };
+		D9954CCFA450726B7C046D17E9EACF7B /* NSData+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+ARTExtension.m"; sourceTree = "<group>"; };
 		DA389B5D256A1D5312A635D941EF2B8C /* Pods-ARTToolKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARTToolKit_Example-Info.plist"; sourceTree = "<group>"; };
 		DB493F76B94E04D564FB63C1D1AE9706 /* ARTToolKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARTToolKit-umbrella.h"; sourceTree = "<group>"; };
-		DDC2135093FACA8784D12C73DC6C8D71 /* UIDevice+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+ARTExtension.h"; sourceTree = "<group>"; };
+		DEB75A692D698D5C0B3A685C34C1E56A /* NSURL+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+ARTExtension.h"; sourceTree = "<group>"; };
 		E1D82D1A000ABFE7F699190EDF29EA72 /* ARTToolKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARTToolKit.debug.xcconfig; sourceTree = "<group>"; };
 		E9081D970B9880DFB28F48C7CEB438FD /* Pods-ARTToolKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ARTToolKit_Tests"; path = Pods_ARTToolKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8EBFAB7AD3D98C0282BFF9B20A130E /* UIFont+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+ARTExtension.m"; sourceTree = "<group>"; };
+		EDE454B325711BA808718B497D661A44 /* NSString+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+ARTExtension.h"; sourceTree = "<group>"; };
 		F237844DA75AE188F152A1174481D88A /* Pods-ARTToolKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARTToolKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F71A2C47D275C66FB0B73C53D3D35940 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F779AB7E610D4C7A2E129CF0567223B4 /* UIDevice+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+ARTExtension.h"; sourceTree = "<group>"; };
 		F7EA475BEDB5DA994CBD21C979A0E244 /* ARTToolKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARTToolKit.release.xcconfig; sourceTree = "<group>"; };
+		FB24B015333AC3B1A921C4C06E8C800A /* NSDate+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+ARTExtension.h"; sourceTree = "<group>"; };
 		FD96AE233F0013540F67412A99D60C7B /* Pods-ARTToolKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARTToolKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		14F2316E39C573B64054F29EFD9FE88F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAAF3B975722A32D88EED71DB52E70E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3277718586FE9E46F13D1D0BA93787FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -119,14 +167,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				996A2641B0DDD02B8985607048216E16 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		98853C1C8820D2DCA02D470EC331E7D2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F02BD5B83D6DDB818789D1B3802EA3BF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +197,36 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		352157CBE6B3B8C00DC2748811E07B9E /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				928BA7B388049DB1D4249264FA1EA7C0 /* NSArray+ARTExtension.h */,
+				B1A1755DAA5E153C2D3289D2BBB1FA83 /* NSArray+ARTExtension.m */,
+				BD06E0D9476DE234FE0C09F8EFC36590 /* NSData+ARTExtension.h */,
+				D9954CCFA450726B7C046D17E9EACF7B /* NSData+ARTExtension.m */,
+				FB24B015333AC3B1A921C4C06E8C800A /* NSDate+ARTExtension.h */,
+				27F0357A73752369800DA20CAA0322EA /* NSDate+ARTExtension.m */,
+				B81735ECB6B4D29BAE62F1626B96E2AA /* NSDictionary+ARTExtension.h */,
+				BD42C0C653E53FDA855AC150F04E9BD1 /* NSDictionary+ARTExtension.m */,
+				17F1650F5ED9EE94A21F885D3D0C40D6 /* NSFileManager+ARTExtension.h */,
+				8D5FEA6E9F02E500C2C2701E28BE5F88 /* NSFileManager+ARTExtension.m */,
+				712FFDB5D4BA99F8CB01AAE41E006280 /* NSMutableArray+ARTExtension.h */,
+				746D76165F4B8DBC9EA1629D5D5661A2 /* NSMutableArray+ARTExtension.m */,
+				4F6821B6FC50B62B333DFD42F02CE17E /* NSMutableDictionary+ARTExtension.h */,
+				4D9BA5B19F58A4E87A18A0FA99F2C68F /* NSMutableDictionary+ARTExtension.m */,
+				2CB16E041F6C60C28CD0D82CEF6C8203 /* NSNumber+ARTExtension.h */,
+				638AA161E0031BB45881C4AAA92272E0 /* NSNumber+ARTExtension.m */,
+				20EB9A55D762604D11DC6EF3BD0EE653 /* NSObject+ARTExtension.h */,
+				A366812A6615AA2C213FBD415B161523 /* NSObject+ARTExtension.m */,
+				EDE454B325711BA808718B497D661A44 /* NSString+ARTExtension.h */,
+				51C12CA3B835975A9FFEDAC9F2917BD2 /* NSString+ARTExtension.m */,
+				DEB75A692D698D5C0B3A685C34C1E56A /* NSURL+ARTExtension.h */,
+				D2881FFA1B86237001A4080FFEAA7E60 /* NSURL+ARTExtension.m */,
+			);
+			name = Foundation;
+			path = Foundation;
+			sourceTree = "<group>";
+		};
 		42247373FAD1FF14B76A3D84FEA6AB5F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,22 +238,32 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		4D70F920C57889FE666A3A4777AD327E /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				946F0DA0720598F8FECD881E0113585C /* Foundation */,
-				A86F7F48BAD9BA16A0B9B5490CFD50CD /* UIKit */,
-			);
-			name = Category;
-			path = ARTToolKit/Classes/Category;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		6C083B3459648D78F980478F8A8EAFCA /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				3916D12B302D2E49581C25A7A70AEE77 /* CALayer+ARTExtension.h */,
+				D27B44C428F8E16C6423291E0FD5F06A /* CALayer+ARTExtension.m */,
+				540AB7D6EB25C4D08D5FC8DFAE2122E6 /* UIColor+ARTExtension.h */,
+				86A1586AEC37C76CF472B54252AAE409 /* UIColor+ARTExtension.m */,
+				F779AB7E610D4C7A2E129CF0567223B4 /* UIDevice+ARTExtension.h */,
+				5F737C44E2F1C0F88D9D5DB48F164F51 /* UIDevice+ARTExtension.m */,
+				2F29B202A4EAA75D08E7A2CEB82647E1 /* UIFont+ARTExtension.h */,
+				ED8EBFAB7AD3D98C0282BFF9B20A130E /* UIFont+ARTExtension.m */,
+				11285552559E57437F82F71D11BC35B3 /* UIImage+ARTExtension.h */,
+				ABCFBC6B0DDE0AFF0914605ADC08C69E /* UIImage+ARTExtension.m */,
+				74385325413641014F6D3062FBF5A043 /* UIView+ARTExtension.h */,
+				9162FF1CE759413AE537D5F0384FA74C /* UIView+ARTExtension.m */,
+			);
+			name = UIKit;
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 		75F0B1B2A746CE10659B5EF0BB20ACC9 /* Targets Support Files */ = {
@@ -220,34 +300,14 @@
 			path = ARTToolKit/Classes/ExternUtils;
 			sourceTree = "<group>";
 		};
-		946F0DA0720598F8FECD881E0113585C /* Foundation */ = {
+		9E8209793B4461AA9E658F629A7270FE /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				0BFF42B893DF1FB5D08238052C206581 /* NSArray+ARTExtension.h */,
-				7F46A99530A2FDAB3575D59EC70B4027 /* NSArray+ARTExtension.m */,
+				352157CBE6B3B8C00DC2748811E07B9E /* Foundation */,
+				6C083B3459648D78F980478F8A8EAFCA /* UIKit */,
 			);
-			name = Foundation;
-			path = Foundation;
-			sourceTree = "<group>";
-		};
-		A86F7F48BAD9BA16A0B9B5490CFD50CD /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				CC0427474A1DFB3B101B1707E48673B5 /* CALayer+ARTExtension.h */,
-				D1DB1E3F7C1E9F660017285E8DD6D7A2 /* CALayer+ARTExtension.m */,
-				D7262F374D1E96C5EF09C83BF79D9DF8 /* UIColor+ARTExtension.h */,
-				761599CA8950C00A31E5ABE6A5C8E6F3 /* UIColor+ARTExtension.m */,
-				DDC2135093FACA8784D12C73DC6C8D71 /* UIDevice+ARTExtension.h */,
-				910BFE7081CA25BA3AEA6C622DCDAFE2 /* UIDevice+ARTExtension.m */,
-				BF18EB339FA99925E717A67D0ADCF7F3 /* UIFont+ARTExtension.h */,
-				65455FAB3B2F08168843AE2BB6AEA8E7 /* UIFont+ARTExtension.m */,
-				28700CEE96DE3BE39B66C2222FE41A17 /* UIImage+ARTExtension.h */,
-				CF9067227A3BDBB1E5DED3D2DCDBD8DB /* UIImage+ARTExtension.m */,
-				CA3635F4B4231197E751D3CC4467CD28 /* UIView+ARTExtension.h */,
-				8599D56283E477A7CFDE4719AA81468C /* UIView+ARTExtension.m */,
-			);
-			name = UIKit;
-			path = UIKit;
+			name = Category;
+			path = ARTToolKit/Classes/Category;
 			sourceTree = "<group>";
 		};
 		BEC65C142C638D7474BEF655CEEB7337 /* Products */ = {
@@ -309,7 +369,7 @@
 		E3846B6290013FBC80D118BE3A04317E /* ARTToolKit */ = {
 			isa = PBXGroup;
 			children = (
-				4D70F920C57889FE666A3A4777AD327E /* Category */,
+				9E8209793B4461AA9E658F629A7270FE /* Category */,
 				81E60C4C1F74E8BF16D344A3B783522C /* ExternUtils */,
 				42247373FAD1FF14B76A3D84FEA6AB5F /* Pod */,
 				80604350E31F84B458433F4889572ECB /* Support Files */,
@@ -321,20 +381,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		49860B44C9612CDB49FA6059F30F05D9 /* Headers */ = {
+		814EE33A64344FD11192D7116212045F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CDA9EEF2995B88D6BBE72CE66BC191A /* ARTAppliance.h in Headers */,
-				16804360AC9ACDA2C3B1D9E1753B8252 /* ARTEmptyUtils.h in Headers */,
-				7E23696DE4D9753C339349B10A06FCD6 /* ARTToolKit-umbrella.h in Headers */,
-				FE7D2471CAC10B4C3AC8C0F91D99F428 /* CALayer+ARTExtension.h in Headers */,
-				D887FDF21D05961E738A0F4943121B1B /* NSArray+ARTExtension.h in Headers */,
-				7C1FB88B49BA934B32C67CD33CF31FD7 /* UIColor+ARTExtension.h in Headers */,
-				ADDE2FDF12CC2A79AA921C85714AED6C /* UIDevice+ARTExtension.h in Headers */,
-				EE92A334AF76E87438B8F6726846F8BB /* UIFont+ARTExtension.h in Headers */,
-				CF476980361CE0DB902799A7C00D9770 /* UIImage+ARTExtension.h in Headers */,
-				275C1A83E438A7175CB0217A3C5A13B7 /* UIView+ARTExtension.h in Headers */,
+				CA9C37FF8B203716975ED1E8BAC9183A /* ARTAppliance.h in Headers */,
+				F17ADB049E69946DC74E559EAE6AF10B /* ARTEmptyUtils.h in Headers */,
+				A3BBEDA5217E317F8FB5366D0A7D5104 /* ARTToolKit-umbrella.h in Headers */,
+				1BEDDA2AE19A7DA2F2D4789327D697A7 /* CALayer+ARTExtension.h in Headers */,
+				9AA375A95D5EEEDDCB316F497B1E951A /* NSArray+ARTExtension.h in Headers */,
+				A5E7125B65A4746984ECD557BB14F70E /* NSData+ARTExtension.h in Headers */,
+				E251BEB1A79DE35328A3FE77F5FA011D /* NSDate+ARTExtension.h in Headers */,
+				5B0E8D0E38A668F99C1EE706E9C74B4D /* NSDictionary+ARTExtension.h in Headers */,
+				355EA13732F8C70374D19547E589D3C8 /* NSFileManager+ARTExtension.h in Headers */,
+				148FF04B795E8AB4092257683DBC0BBA /* NSMutableArray+ARTExtension.h in Headers */,
+				BFC25C75FF830D24187BDFB9541E201E /* NSMutableDictionary+ARTExtension.h in Headers */,
+				3AECC7C54E564F0885BA4F9F85D0F144 /* NSNumber+ARTExtension.h in Headers */,
+				7F8C3E61D92C96EB3AB3A9C08F5A1ACA /* NSObject+ARTExtension.h in Headers */,
+				83BBB1DC03A496F4593A3C8601568356 /* NSString+ARTExtension.h in Headers */,
+				1876FE37B59F1EE304AFF2FE6F04B92A /* NSURL+ARTExtension.h in Headers */,
+				3AF714CC4612739CAE8AB99CBEC4CA0B /* UIColor+ARTExtension.h in Headers */,
+				D142C58464CD8C5F98E7D2E94829C087 /* UIDevice+ARTExtension.h in Headers */,
+				7ACDAF025326CE7DAFA72299A1EADB29 /* UIFont+ARTExtension.h in Headers */,
+				D48B4FB1440784778091D8CE0BE18751 /* UIImage+ARTExtension.h in Headers */,
+				6B6D06F3BC296C41204ADD197B1943DA /* UIView+ARTExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,7 +439,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				3FA08E273C33F3730D14A0488EA4D90B /* PBXTargetDependency */,
+				2F78EC53EC29BA1BD8CC40AB4B456AC9 /* PBXTargetDependency */,
 			);
 			name = "Pods-ARTToolKit_Tests";
 			productName = Pods_ARTToolKit_Tests;
@@ -388,7 +458,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				37903206CF65C6B89CCB8E025F16C1CB /* PBXTargetDependency */,
+				32DAC0FA1B5B23840EC118B94F8566F9 /* PBXTargetDependency */,
 			);
 			name = "Pods-ARTToolKit_Example";
 			productName = Pods_ARTToolKit_Example;
@@ -397,12 +467,12 @@
 		};
 		755551CA8B92A7C3E8D088C158E0E8F3 /* ARTToolKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 521A88C9F5B037210AAF6609B1975F42 /* Build configuration list for PBXNativeTarget "ARTToolKit" */;
+			buildConfigurationList = AA2688EC73A569497AC85A175BE37F0A /* Build configuration list for PBXNativeTarget "ARTToolKit" */;
 			buildPhases = (
-				49860B44C9612CDB49FA6059F30F05D9 /* Headers */,
-				E58BCC29FA289C0611BF8B13CE7CABA9 /* Sources */,
-				98853C1C8820D2DCA02D470EC331E7D2 /* Frameworks */,
-				92CEED6A1437B84D5267F51199637B7A /* Resources */,
+				814EE33A64344FD11192D7116212045F /* Headers */,
+				BBBC9479D8E274673E50453F0D9FE06E /* Sources */,
+				14F2316E39C573B64054F29EFD9FE88F /* Frameworks */,
+				B61021C4194A9D5EDE5C9D18D920433D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -457,7 +527,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92CEED6A1437B84D5267F51199637B7A /* Resources */ = {
+		B61021C4194A9D5EDE5C9D18D920433D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -475,6 +545,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BBBC9479D8E274673E50453F0D9FE06E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290C6F2312B075A0A09A48BA2D10ADD3 /* ARTEmptyUtils.m in Sources */,
+				31929D124801BA3CA3C9E0975F01DFC2 /* ARTToolKit-dummy.m in Sources */,
+				0654C701B198BDDFC502B8C186CDA1B7 /* CALayer+ARTExtension.m in Sources */,
+				D38854ED681EA8B205D4F1FAD4D94025 /* NSArray+ARTExtension.m in Sources */,
+				452EA9417010B622FDFFE617BFA99A31 /* NSData+ARTExtension.m in Sources */,
+				9947DD007EF25D2680CE09D14AF24CCF /* NSDate+ARTExtension.m in Sources */,
+				823A018CBD39B138BD6C25F95D42B606 /* NSDictionary+ARTExtension.m in Sources */,
+				ADFC0168BD5DF2DFA7CA9633AE6A84BE /* NSFileManager+ARTExtension.m in Sources */,
+				9E3C853BE79E8C3453029BA54B69B4B0 /* NSMutableArray+ARTExtension.m in Sources */,
+				248314D6FAAA58C6FBC391ED41272B85 /* NSMutableDictionary+ARTExtension.m in Sources */,
+				49E405BAB67E3545E90FD9E5C4A53053 /* NSNumber+ARTExtension.m in Sources */,
+				E7C6B049E216C314448180FE2A709F76 /* NSObject+ARTExtension.m in Sources */,
+				21F7DF69AD7912D6A1956DFF4DA5F783 /* NSString+ARTExtension.m in Sources */,
+				E37DB0DAD6D32CB24793763C6A1562AA /* NSURL+ARTExtension.m in Sources */,
+				FAAC3104A01B804FF6168C82404E882B /* UIColor+ARTExtension.m in Sources */,
+				EBB445BEE2CB6E9B2BDE8444BCC4808E /* UIDevice+ARTExtension.m in Sources */,
+				04DB14F114C32B2840AFD8BED81D241E /* UIFont+ARTExtension.m in Sources */,
+				088E85110107AE11D519E62705470311 /* UIImage+ARTExtension.m in Sources */,
+				4EC8D15B86720772DE3145DD688487DE /* UIView+ARTExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D97C03325C94C39784C570C3E7DE3960 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -483,36 +579,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E58BCC29FA289C0611BF8B13CE7CABA9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F3C8A4603597E33054663CD684E19383 /* ARTEmptyUtils.m in Sources */,
-				66CC2BA1B0F9CB9961F20FC9F59E65AF /* ARTToolKit-dummy.m in Sources */,
-				13B3359CA324916E4DE53E103D09B6FB /* CALayer+ARTExtension.m in Sources */,
-				2040300083D78AD48AFC3A94EEB3FC19 /* NSArray+ARTExtension.m in Sources */,
-				0EBD722CEAA54D4328108939741519AD /* UIColor+ARTExtension.m in Sources */,
-				D1BFBD7D1ACFEE7EDE623CF5903F4FBC /* UIDevice+ARTExtension.m in Sources */,
-				0476EAF32AA6F0EDEC1229C915330FC3 /* UIFont+ARTExtension.m in Sources */,
-				49E5A0304AD4048EFF0D17F15A24B97F /* UIImage+ARTExtension.m in Sources */,
-				D7FD5F73687B8E13FEB7C1C264718775 /* UIView+ARTExtension.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		37903206CF65C6B89CCB8E025F16C1CB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ARTToolKit;
-			target = 755551CA8B92A7C3E8D088C158E0E8F3 /* ARTToolKit */;
-			targetProxy = 9FFA68CFDB4FF43C31E905DF62CCA78F /* PBXContainerItemProxy */;
-		};
-		3FA08E273C33F3730D14A0488EA4D90B /* PBXTargetDependency */ = {
+		2F78EC53EC29BA1BD8CC40AB4B456AC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ARTToolKit_Example";
 			target = 6268A4AE3376C1CE66B992233E058DE8 /* Pods-ARTToolKit_Example */;
-			targetProxy = D799C47EB383D665CD9C4567C3E7DD74 /* PBXContainerItemProxy */;
+			targetProxy = A044A5D136C78FCCC22347FC22940E52 /* PBXContainerItemProxy */;
+		};
+		32DAC0FA1B5B23840EC118B94F8566F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ARTToolKit;
+			target = 755551CA8B92A7C3E8D088C158E0E8F3 /* ARTToolKit */;
+			targetProxy = 47DA879BBC9DC6EBB43FF40B0416EE51 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -555,7 +635,7 @@
 			};
 			name = Release;
 		};
-		266575E88343348726B90DA8BB8D71BD /* Release */ = {
+		3F143FAE791F8CB24922571588DD22E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F7EA475BEDB5DA994CBD21C979A0E244 /* ARTToolKit.release.xcconfig */;
 			buildSettings = {
@@ -590,6 +670,41 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		41862857E38EC2F6A6AC0671FE5DE314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1D82D1A000ABFE7F699190EDF29EA72 /* ARTToolKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ARTToolKit/ARTToolKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ARTToolKit/ARTToolKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ARTToolKit/ARTToolKit.modulemap";
+				PRODUCT_MODULE_NAME = ARTToolKit;
+				PRODUCT_NAME = ARTToolKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		694593258FF43A1B3BBE12CFB7525731 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -831,41 +946,6 @@
 			};
 			name = Debug;
 		};
-		FAD0487D73EA94351593AEC63196D141 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1D82D1A000ABFE7F699190EDF29EA72 /* ARTToolKit.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ARTToolKit/ARTToolKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ARTToolKit/ARTToolKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ARTToolKit/ARTToolKit.modulemap";
-				PRODUCT_MODULE_NAME = ARTToolKit;
-				PRODUCT_NAME = ARTToolKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -878,20 +958,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		521A88C9F5B037210AAF6609B1975F42 /* Build configuration list for PBXNativeTarget "ARTToolKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FAD0487D73EA94351593AEC63196D141 /* Debug */,
-				266575E88343348726B90DA8BB8D71BD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		56BC49D04D29121927FB767E5051F9C7 /* Build configuration list for PBXNativeTarget "Pods-ARTToolKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97D72E7B376A445AC49CF2367D4DAEDF /* Debug */,
 				694593258FF43A1B3BBE12CFB7525731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA2688EC73A569497AC85A175BE37F0A /* Build configuration list for PBXNativeTarget "ARTToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41862857E38EC2F6A6AC0671FE5DE314 /* Debug */,
+				3F143FAE791F8CB24922571588DD22E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

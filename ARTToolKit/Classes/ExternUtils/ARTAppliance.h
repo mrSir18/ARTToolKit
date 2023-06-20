@@ -9,7 +9,18 @@
 #define ARTAppliance_h
 
 /*Foundation*/
+#import "NSMutableDictionary+ARTExtension.h"
+
+#import "NSMutableArray+ARTExtension.h"
+#import "NSFileManager+ARTExtension.h"
+#import "NSDictionary+ARTExtension.h"
+#import "NSNumber+ARTExtension.h"
+#import "NSObject+ARTExtension.h"
 #import "NSArray+ARTExtension.h"
+#import "NSData+ARTExtension.h"
+#import "NSDate+ARTExtension.h"
+#import "NSString+ARTExtension.h"
+#import "NSURL+ARTExtension.h"
 
 
 /*UIKit*/

@@ -11,6 +11,16 @@
 #endif
 
 #import "NSArray+ARTExtension.h"
+#import "NSData+ARTExtension.h"
+#import "NSDate+ARTExtension.h"
+#import "NSDictionary+ARTExtension.h"
+#import "NSFileManager+ARTExtension.h"
+#import "NSMutableArray+ARTExtension.h"
+#import "NSMutableDictionary+ARTExtension.h"
+#import "NSNumber+ARTExtension.h"
+#import "NSObject+ARTExtension.h"
+#import "NSString+ARTExtension.h"
+#import "NSURL+ARTExtension.h"
 #import "CALayer+ARTExtension.h"
 #import "UIColor+ARTExtension.h"
 #import "UIDevice+ARTExtension.h"
