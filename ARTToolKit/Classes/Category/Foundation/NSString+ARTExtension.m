@@ -26,28 +26,26 @@
 
 - (CGSize)art_sizeWithFontCompatible:(UIFont *)font forWidth:(CGFloat)width lineBreakMode:(NSLineBreakMode)lineBreakMode
 {
-    //NSDictionary *dictionaryAttributes = @{NSFontAttributeName:font};
-    CGSize stringSize = [self sizeWithFont:font
-                         constrainedToSize:CGSizeMake(width, CGFLOAT_MAX)
-                             lineBreakMode:lineBreakMode];
-    CGFloat widthResult = stringSize.width;
+    CGRect rect = [self boundingRectWithSize:CGSizeMake(width, CGFLOAT_MAX)
+                                     options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading
+                                  attributes:@{NSFontAttributeName : font}
+                                     context:nil];
+
+    CGFloat widthResult = rect.size.width;
     if(widthResult - width >= 0.001)
     {
         widthResult = width;
     }
     
-    return CGSizeMake(ceil(widthResult), ceil(stringSize.height));
+    return CGSizeMake(ceil(widthResult), ceil(rect.size.height));
 }
 
-
-// 转换为NSMutableAttributedString
 - (NSMutableAttributedString *)art_attributedStringWithAttributes:(NSDictionary *)attributesDic range:(NSRange)attributeRange
 {
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:self];
     [attributedString addAttributes:attributesDic range:attributeRange];
     return attributedString;
 }
-
 
 - (NSString *)art_stringByTrimmingWhitespace
 {
