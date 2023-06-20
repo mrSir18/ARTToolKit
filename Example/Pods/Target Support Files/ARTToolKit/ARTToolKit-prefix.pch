@@ -23,8 +23,6 @@
 #endif
 
 #ifdef __OBJC__
-#define WeakObj(obj)                autoreleasepool{} __weak __typeof(obj) obj##Weak = obj;
-
     @import UIKit;
     @import Foundation;
 #import "ARTToolKitMacro.h"
