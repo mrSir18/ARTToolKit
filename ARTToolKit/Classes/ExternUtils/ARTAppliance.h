@@ -13,7 +13,12 @@
 
 
 /*UIKit*/
+#import "UIDevice+ARTExtension.h"
 #import "CALayer+ARTExtension.h"
+#import "UIColor+ARTExtension.h"
+#import "UIImage+ARTExtension.h"
+#import "UIFont+ARTExtension.h"
+#import "UIView+ARTExtension.h"
 
 
 /*Utils*/

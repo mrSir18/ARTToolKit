@@ -7,7 +7,7 @@
 
 #import "NSArray+ARTExtension.h"
 
-@implementation NSArray (WXExtension)
+@implementation NSArray (ARTExtension)
 
 - (NSNumber *)art_numberAtIndex:(NSInteger)index defaultValue:(NSNumber *)defaultValue
 {

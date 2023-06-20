@@ -7,7 +7,7 @@
 
 #import "CALayer+ARTExtension.h"
 
-@implementation CALayer (WXExtension)
+@implementation CALayer (ARTExtension)
 
 - (void)setArt_borderColor:(UIColor *)borderUIColor
 {

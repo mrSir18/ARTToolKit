@@ -12,6 +12,11 @@
 
 #import "NSArray+ARTExtension.h"
 #import "CALayer+ARTExtension.h"
+#import "UIColor+ARTExtension.h"
+#import "UIDevice+ARTExtension.h"
+#import "UIFont+ARTExtension.h"
+#import "UIImage+ARTExtension.h"
+#import "UIView+ARTExtension.h"
 #import "ARTAppliance.h"
 #import "ARTEmptyUtils.h"
 

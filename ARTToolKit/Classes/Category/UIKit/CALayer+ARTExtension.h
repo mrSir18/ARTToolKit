@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CALayer (WXExtension)
+@interface CALayer (ARTExtension)
 
 /*!
  * @brief  设置颜色

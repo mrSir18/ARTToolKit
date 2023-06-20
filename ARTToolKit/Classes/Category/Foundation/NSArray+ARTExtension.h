@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSArray (WXExtension)
+@interface NSArray (ARTExtension)
 
 /**
  * @brief 直接返回NSNumber值
