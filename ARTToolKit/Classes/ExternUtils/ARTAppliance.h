@@ -37,4 +37,7 @@
 #import "ARTEmptyUtils.h"
 
 
+/*Macro*/
+#import "ARTToolKitMacro.h"
+
 #endif /* ARTAppliance_h */
