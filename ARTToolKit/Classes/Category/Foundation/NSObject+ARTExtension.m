@@ -6,14 +6,9 @@
 //
 
 #import "NSObject+ARTExtension.h"
-#import <YYKit/NSObject+YYModel.h>
 #import <objc/runtime.h>
 
 @implementation NSObject (ARTExtension)
-
-- (NSString *)JSONRepresentation {
-    return [self modelToJSONString];
-}
 
 @end
 

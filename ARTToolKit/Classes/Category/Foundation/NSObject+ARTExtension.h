@@ -9,11 +9,6 @@
 
 @interface NSObject (ARTExtension)
 
-/*!
- * @brief 转json字符串
- */
--(NSString *)JSONRepresentation;
-
 @end
 
 
