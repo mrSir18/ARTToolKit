@@ -23,6 +23,8 @@
 
 
 /*UIKit*/
+#import "UINavigationController+ARTFullScreenPopGesture.h"
+#import "UIScreen+ARTExtension.h"
 #import "UIDevice+ARTExtension.h"
 #import "CALayer+ARTExtension.h"
 #import "UIColor+ARTExtension.h"

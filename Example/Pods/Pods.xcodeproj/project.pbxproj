@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		020B26B32A41902C0004E293 /* UINavigationController+ARTFullScreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 020B26B12A41902C0004E293 /* UINavigationController+ARTFullScreenPopGesture.h */; };
 		020B26B42A41902C0004E293 /* UINavigationController+ARTFullScreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 020B26B22A41902C0004E293 /* UINavigationController+ARTFullScreenPopGesture.m */; };
+		020B26B82A4195630004E293 /* UIScreen+ARTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 020B26B62A4195630004E293 /* UIScreen+ARTExtension.h */; };
+		020B26B92A4195630004E293 /* UIScreen+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 020B26B72A4195630004E293 /* UIScreen+ARTExtension.m */; };
 		04DB14F114C32B2840AFD8BED81D241E /* UIFont+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8EBFAB7AD3D98C0282BFF9B20A130E /* UIFont+ARTExtension.m */; };
 		0654C701B198BDDFC502B8C186CDA1B7 /* CALayer+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B44C428F8E16C6423291E0FD5F06A /* CALayer+ARTExtension.m */; };
 		088E85110107AE11D519E62705470311 /* UIImage+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFBC6B0DDE0AFF0914605ADC08C69E /* UIImage+ARTExtension.m */; };
@@ -77,6 +79,9 @@
 /* Begin PBXFileReference section */
 		020B26B12A41902C0004E293 /* UINavigationController+ARTFullScreenPopGesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ARTFullScreenPopGesture.h"; sourceTree = "<group>"; };
 		020B26B22A41902C0004E293 /* UINavigationController+ARTFullScreenPopGesture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ARTFullScreenPopGesture.m"; sourceTree = "<group>"; };
+		020B26B52A4194460004E293 /* ARTToolKitMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARTToolKitMacro.h; sourceTree = "<group>"; };
+		020B26B62A4195630004E293 /* UIScreen+ARTExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScreen+ARTExtension.h"; sourceTree = "<group>"; };
+		020B26B72A4195630004E293 /* UIScreen+ARTExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+ARTExtension.m"; sourceTree = "<group>"; };
 		0904D39C162D041840B67FF4847E433A /* Pods-ARTToolKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARTToolKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		0BAAFBE04757262706B456B0F41217F3 /* Pods-ARTToolKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ARTToolKit_Tests.modulemap"; sourceTree = "<group>"; };
 		11285552559E57437F82F71D11BC35B3 /* UIImage+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ARTExtension.h"; sourceTree = "<group>"; };
@@ -264,6 +269,8 @@
 				ABCFBC6B0DDE0AFF0914605ADC08C69E /* UIImage+ARTExtension.m */,
 				74385325413641014F6D3062FBF5A043 /* UIView+ARTExtension.h */,
 				9162FF1CE759413AE537D5F0384FA74C /* UIView+ARTExtension.m */,
+				020B26B62A4195630004E293 /* UIScreen+ARTExtension.h */,
+				020B26B72A4195630004E293 /* UIScreen+ARTExtension.m */,
 				020B26B12A41902C0004E293 /* UINavigationController+ARTFullScreenPopGesture.h */,
 				020B26B22A41902C0004E293 /* UINavigationController+ARTFullScreenPopGesture.m */,
 			);
@@ -298,6 +305,7 @@
 			isa = PBXGroup;
 			children = (
 				9320F27002334856DA4B43A2F71AD0A6 /* ARTAppliance.h */,
+				020B26B52A4194460004E293 /* ARTToolKitMacro.h */,
 				C8F3163197EB4219EE816B3E799DA648 /* EmptyUtil */,
 			);
 			name = ExternUtils;
@@ -404,6 +412,7 @@
 				7F8C3E61D92C96EB3AB3A9C08F5A1ACA /* NSObject+ARTExtension.h in Headers */,
 				83BBB1DC03A496F4593A3C8601568356 /* NSString+ARTExtension.h in Headers */,
 				1876FE37B59F1EE304AFF2FE6F04B92A /* NSURL+ARTExtension.h in Headers */,
+				020B26B82A4195630004E293 /* UIScreen+ARTExtension.h in Headers */,
 				3AF714CC4612739CAE8AB99CBEC4CA0B /* UIColor+ARTExtension.h in Headers */,
 				D142C58464CD8C5F98E7D2E94829C087 /* UIDevice+ARTExtension.h in Headers */,
 				7ACDAF025326CE7DAFA72299A1EADB29 /* UIFont+ARTExtension.h in Headers */,
@@ -556,6 +565,7 @@
 				290C6F2312B075A0A09A48BA2D10ADD3 /* ARTEmptyUtils.m in Sources */,
 				31929D124801BA3CA3C9E0975F01DFC2 /* ARTToolKit-dummy.m in Sources */,
 				0654C701B198BDDFC502B8C186CDA1B7 /* CALayer+ARTExtension.m in Sources */,
+				020B26B92A4195630004E293 /* UIScreen+ARTExtension.m in Sources */,
 				D38854ED681EA8B205D4F1FAD4D94025 /* NSArray+ARTExtension.m in Sources */,
 				452EA9417010B622FDFFE617BFA99A31 /* NSData+ARTExtension.m in Sources */,
 				9947DD007EF25D2680CE09D14AF24CCF /* NSDate+ARTExtension.m in Sources */,
