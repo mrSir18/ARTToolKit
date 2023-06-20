@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		020B26B32A41902C0004E293 /* UINavigationController+ARTFullScreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 020B26B12A41902C0004E293 /* UINavigationController+ARTFullScreenPopGesture.h */; };
+		020B26B42A41902C0004E293 /* UINavigationController+ARTFullScreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 020B26B22A41902C0004E293 /* UINavigationController+ARTFullScreenPopGesture.m */; };
 		04DB14F114C32B2840AFD8BED81D241E /* UIFont+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8EBFAB7AD3D98C0282BFF9B20A130E /* UIFont+ARTExtension.m */; };
 		0654C701B198BDDFC502B8C186CDA1B7 /* CALayer+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D27B44C428F8E16C6423291E0FD5F06A /* CALayer+ARTExtension.m */; };
 		088E85110107AE11D519E62705470311 /* UIImage+ARTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCFBC6B0DDE0AFF0914605ADC08C69E /* UIImage+ARTExtension.m */; };
@@ -73,6 +75,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		020B26B12A41902C0004E293 /* UINavigationController+ARTFullScreenPopGesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ARTFullScreenPopGesture.h"; sourceTree = "<group>"; };
+		020B26B22A41902C0004E293 /* UINavigationController+ARTFullScreenPopGesture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ARTFullScreenPopGesture.m"; sourceTree = "<group>"; };
 		0904D39C162D041840B67FF4847E433A /* Pods-ARTToolKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARTToolKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		0BAAFBE04757262706B456B0F41217F3 /* Pods-ARTToolKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ARTToolKit_Tests.modulemap"; sourceTree = "<group>"; };
 		11285552559E57437F82F71D11BC35B3 /* UIImage+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ARTExtension.h"; sourceTree = "<group>"; };
@@ -80,7 +84,7 @@
 		17F1650F5ED9EE94A21F885D3D0C40D6 /* NSFileManager+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+ARTExtension.h"; sourceTree = "<group>"; };
 		20EB9A55D762604D11DC6EF3BD0EE653 /* NSObject+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+ARTExtension.h"; sourceTree = "<group>"; };
 		27F0357A73752369800DA20CAA0322EA /* NSDate+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ARTExtension.m"; sourceTree = "<group>"; };
-		2C1BAC2F22784D35FBCBCD4010F9C3E8 /* ARTToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ARTToolKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2C1BAC2F22784D35FBCBCD4010F9C3E8 /* ARTToolKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ARTToolKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2C599F7EA87F7C1B7E03CD2BA3995D0C /* Pods-ARTToolKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARTToolKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2CB16E041F6C60C28CD0D82CEF6C8203 /* NSNumber+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNumber+ARTExtension.h"; sourceTree = "<group>"; };
 		2F29B202A4EAA75D08E7A2CEB82647E1 /* UIFont+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+ARTExtension.h"; sourceTree = "<group>"; };
@@ -112,11 +116,11 @@
 		928BA7B388049DB1D4249264FA1EA7C0 /* NSArray+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+ARTExtension.h"; sourceTree = "<group>"; };
 		9320F27002334856DA4B43A2F71AD0A6 /* ARTAppliance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARTAppliance.h; sourceTree = "<group>"; };
 		9427177D18E92466C09B81D5E8CA228E /* ARTToolKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARTToolKit-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A366812A6615AA2C213FBD415B161523 /* NSObject+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ARTExtension.m"; sourceTree = "<group>"; };
 		AA8AC9216DBE746B2A28931B0D553E45 /* Pods-ARTToolKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ARTToolKit_Example"; path = Pods_ARTToolKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCFBC6B0DDE0AFF0914605ADC08C69E /* UIImage+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ARTExtension.m"; sourceTree = "<group>"; };
-		AFE2CBEB8FD7551023E0AA0D722B17E0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AFE2CBEB8FD7551023E0AA0D722B17E0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B159DC28652BC72A551D9CA46E8B7429 /* Pods-ARTToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARTToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B1A1755DAA5E153C2D3289D2BBB1FA83 /* NSArray+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ARTExtension.m"; sourceTree = "<group>"; };
 		B7847CA3F930EA21BDB440513DCA89E3 /* Pods-ARTToolKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARTToolKit_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -138,7 +142,7 @@
 		ED8EBFAB7AD3D98C0282BFF9B20A130E /* UIFont+ARTExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+ARTExtension.m"; sourceTree = "<group>"; };
 		EDE454B325711BA808718B497D661A44 /* NSString+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+ARTExtension.h"; sourceTree = "<group>"; };
 		F237844DA75AE188F152A1174481D88A /* Pods-ARTToolKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARTToolKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F71A2C47D275C66FB0B73C53D3D35940 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F71A2C47D275C66FB0B73C53D3D35940 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F779AB7E610D4C7A2E129CF0567223B4 /* UIDevice+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+ARTExtension.h"; sourceTree = "<group>"; };
 		F7EA475BEDB5DA994CBD21C979A0E244 /* ARTToolKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARTToolKit.release.xcconfig; sourceTree = "<group>"; };
 		FB24B015333AC3B1A921C4C06E8C800A /* NSDate+ARTExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+ARTExtension.h"; sourceTree = "<group>"; };
@@ -223,7 +227,6 @@
 				DEB75A692D698D5C0B3A685C34C1E56A /* NSURL+ARTExtension.h */,
 				D2881FFA1B86237001A4080FFEAA7E60 /* NSURL+ARTExtension.m */,
 			);
-			name = Foundation;
 			path = Foundation;
 			sourceTree = "<group>";
 		};
@@ -261,8 +264,9 @@
 				ABCFBC6B0DDE0AFF0914605ADC08C69E /* UIImage+ARTExtension.m */,
 				74385325413641014F6D3062FBF5A043 /* UIView+ARTExtension.h */,
 				9162FF1CE759413AE537D5F0384FA74C /* UIView+ARTExtension.m */,
+				020B26B12A41902C0004E293 /* UINavigationController+ARTFullScreenPopGesture.h */,
+				020B26B22A41902C0004E293 /* UINavigationController+ARTFullScreenPopGesture.m */,
 			);
-			name = UIKit;
 			path = UIKit;
 			sourceTree = "<group>";
 		};
@@ -343,7 +347,6 @@
 				40B60C276E0FBF1E951E0262656E38EC /* ARTEmptyUtils.h */,
 				4485110C44F315B82A15706445CB35F0 /* ARTEmptyUtils.m */,
 			);
-			name = EmptyUtil;
 			path = EmptyUtil;
 			sourceTree = "<group>";
 		};
@@ -389,6 +392,7 @@
 				F17ADB049E69946DC74E559EAE6AF10B /* ARTEmptyUtils.h in Headers */,
 				A3BBEDA5217E317F8FB5366D0A7D5104 /* ARTToolKit-umbrella.h in Headers */,
 				1BEDDA2AE19A7DA2F2D4789327D697A7 /* CALayer+ARTExtension.h in Headers */,
+				020B26B32A41902C0004E293 /* UINavigationController+ARTFullScreenPopGesture.h in Headers */,
 				9AA375A95D5EEEDDCB316F497B1E951A /* NSArray+ARTExtension.h in Headers */,
 				A5E7125B65A4746984ECD557BB14F70E /* NSData+ARTExtension.h in Headers */,
 				E251BEB1A79DE35328A3FE77F5FA011D /* NSDate+ARTExtension.h in Headers */,
@@ -561,6 +565,7 @@
 				248314D6FAAA58C6FBC391ED41272B85 /* NSMutableDictionary+ARTExtension.m in Sources */,
 				49E405BAB67E3545E90FD9E5C4A53053 /* NSNumber+ARTExtension.m in Sources */,
 				E7C6B049E216C314448180FE2A709F76 /* NSObject+ARTExtension.m in Sources */,
+				020B26B42A41902C0004E293 /* UINavigationController+ARTFullScreenPopGesture.m in Sources */,
 				21F7DF69AD7912D6A1956DFF4DA5F783 /* NSString+ARTExtension.m in Sources */,
 				E37DB0DAD6D32CB24793763C6A1562AA /* NSURL+ARTExtension.m in Sources */,
 				FAAC3104A01B804FF6168C82404E882B /* UIColor+ARTExtension.m in Sources */,
