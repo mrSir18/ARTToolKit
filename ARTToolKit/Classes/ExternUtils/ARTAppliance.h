@@ -8,6 +8,10 @@
 #ifndef ARTAppliance_h
 #define ARTAppliance_h
 
+/*Macro*/
+#import "ARTToolKitMacro.h"
+
+
 /*Foundation*/
 #import "NSMutableDictionary+ARTExtension.h"
 #import "NSMutableArray+ARTExtension.h"
@@ -36,8 +40,5 @@
 /*Utils*/
 #import "ARTEmptyUtils.h"
 
-
-/*Macro*/
-#import "ARTToolKitMacro.h"
 
 #endif /* ARTAppliance_h */

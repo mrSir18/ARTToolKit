@@ -8,8 +8,6 @@
 #import "UINavigationController+ARTFullScreenPopGesture.h"
 #import <objc/runtime.h>
 
-#define WeakObj(obj)                autoreleasepool{} __weak __typeof(obj) obj##Weak = obj;
-
 #pragma mark - 手势代理
 @interface ARTFullScreenPopGestureRecognizerDelegate : NSObject <UIGestureRecognizerDelegate>
 @property (nonatomic, weak) UINavigationController *navigationController;

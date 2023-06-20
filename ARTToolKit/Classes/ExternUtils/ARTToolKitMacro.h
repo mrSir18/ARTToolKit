@@ -7,6 +7,8 @@
 
 #import "UIScreen+ARTExtension.h"
 
+#define WeakObj(obj)                autoreleasepool{} __weak __typeof(obj) obj##Weak = obj;
+
 // 手机机型是否为iPhone X
 #define IS_IPHONE_X                              [UIScreen art_currentScreenIsIphoneX]
 
